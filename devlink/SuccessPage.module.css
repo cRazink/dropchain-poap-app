@@ -1,0 +1,152 @@
+.div-block-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  display: flex;
+
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 0.00%, 0.90),hsla(0, 0.00%, 0.00%, 0.90)), url("https://uploads-ssl.webflow.com/656cfccb2321a8598c51014a/656e30e03f471f58cff06741_sharp%20shapes%20dark%20green%20color%20background.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.image {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  right: 0%;
+  bottom: auto;
+
+  display: none;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .image {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+
+    width: 199px;
+    max-width: 100px;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.div-block {
+  position: relative;
+  top: auto;
+  bottom: auto;
+
+  display: flex;
+  width: 600px;
+  max-width: 95svw;
+  margin: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+@media screen and (max-width: 479px) {
+  .div-block {
+    position: relative;
+    top: auto;
+    bottom: auto;
+
+    display: block;
+    width: 95svw;
+    max-width: 1200px;
+    margin: auto;
+    aspect-ratio: auto;
+
+    text-align: center;
+  }
+}
+
+.heading-2 {
+  color: var(--white);
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .heading-2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    color: var(--white);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 479px) {
+  .link {
+    text-decoration: none;
+  }
+}
+
+.text-span {
+  background-image: linear-gradient(130deg, var(--green), hsla(178, 100.00%, 50.00%, 1.00));
+
+  color: var(--green);
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 479px) {
+  .text-span {
+    background-image: linear-gradient(77deg, hsla(154.14225941422595, 99.17%, 47.25%, 1.00), hsla(187, 100.00%, 50.00%, 1.00));
+    font-style: italic;
+    text-decoration: none;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.html-embed {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 479px) {
+  .html-embed {
+    margin-bottom: 20px;
+  }
+}
+
+.button {
+  width: 100%;
+  max-width: 400px;
+
+  border-radius: 5px;
+
+  background-image: linear-gradient(136deg, var(--blue), var(--green));
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}

@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DropChain POAP App
 
-## Getting Started
+Welcome! This is the open-sourced example of how to build a blockchain POAP (Proof of Attendance Protocol) styled blockchain app with the DropChain Javascript SDK.
 
-First, run the development server:
+### Quickstart
+To start using the DropChain SDK, simply run:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+``` npm install dropchain-sdk ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For this example, we have the required packages installed already. However, you can install all of the packages you need to replicate this environment with:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```npm install express dropchain-sdk dotenv cors body-parser```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Examples
+The most important pieces to the app example are within the /pages/ section (frontend) to see the formatting of the payload for the DropChain SDK, and in the /backend/server.js section (how we use the DropChain SDK to handle requests and make transactions to the blockchain.
 
-## Learn More
+See ```/backend/server.js``` for code snippet examples of how to start using the DropChain SDK.
 
-To learn more about Next.js, take a look at the following resources:
+### Documentation
+Take a look here: https://dropchain.gitbook.io/dropchain-api-beta/ to get started.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy building! 👷‍♂️🏗
